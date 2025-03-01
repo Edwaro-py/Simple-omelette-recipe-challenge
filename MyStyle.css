@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Outfit thin';
+    src: url(Outfit-VariableFont_wght.ttf);
+    font-family: 'Young Serif';
+    src: url(YoungSerif-Regular.ttf);
+}
+
+
+
+
+figure{
+    padding: 40px;
+    background: rgba(255, 209, 255, 0.493);
+    /*background-color: brown;*/
+    border-radius: 7px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 325px;
+}
+tr {
+    border-bottom: 1px solid #ddd;
+}
+body{
+    color: rgb(58, 58, 58);
+}
+figcaption{
+    color: rgb(133, 0, 133);
+    font-size: 50px;
+    font-family: 'Outfit thin';
+    font-weight: 500;
+}
+li.Pt{
+    margin-bottom: 18px;
+    font-family: 'Outfit thin';
+    font-size: 30px;
+    padding-left: 50px;
+    
+}
+ul li.Pt::marker{
+    color: rgb(133, 0, 133)
+}
+h1{
+    font-size: 100px;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    font-family: 'Young serif';
+    color: rgb(24, 24, 24);
+    font-weight: 300;
+}
+h2{
+    font-size: 55px;
+    margin-left: 5%;
+    font-family: 'Young Serif';
+    color: rgb(163, 75, 54);
+}
+img.omelette{
+    display:block;
+    width: 90%;
+    margin: 75px auto 0px auto;
+}
+p{
+    font-size: 29px;
+    font-family: 'Outfit thin';
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 1700px;
+    font-weight: 300;
+}
