@@ -80,7 +80,7 @@ hr{
 ul.ING li, ol.IN li{
     margin-left: 5%;
 }
-ul.ING li, ol.IN li::marker{
+ul.ING li::marker, ol.IN li::marker{
     color: rgb(163, 75, 54);
 }
 td:nth-child(even), th:nth-child(even) {
